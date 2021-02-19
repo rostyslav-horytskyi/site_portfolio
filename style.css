@@ -533,10 +533,13 @@ p {
 
   .course_photo {
     max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+
   }
 
   .course_photo img {
-    width: 335px;
+    width: 150px;
   }
 
   .course_description {
