@@ -159,7 +159,6 @@ p {
 }
 
 .intro_photo {
-  width: 56%;
   position: absolute;
   bottom: -1px;
   right: 0;
@@ -227,6 +226,7 @@ p {
 
 .about_photo {
   width: 500px;
+  max-width: 40%;
   padding-left: 3.5rem;
 }
 
@@ -475,6 +475,10 @@ p {
     margin: 0;
   }
 
+  .intro_photo {
+    border-radius: 0;
+  }
+
   .intro_title {
     font-size: 2rem;
   }
@@ -501,10 +505,11 @@ p {
   }
 
   .about_photo {
-    width: 100%;
+    min-width: 100%;
     margin: 0;
     padding: 0;
-  }
+    height: 100%;
+}
 
   .about_content {
     margin-top: 3rem;
