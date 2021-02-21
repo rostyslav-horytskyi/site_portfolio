@@ -160,7 +160,8 @@ p {
 
 .intro_photo {
   position: absolute;
-  width: 45%;
+  width: 46%;
+  max-width: 540px;
   bottom: -1px;
   right: 0;
   z-index: 1;
