@@ -476,6 +476,7 @@ p {
   }
 
   .intro_photo {
+    width: 286px;
     border-radius: 0;
   }
 
