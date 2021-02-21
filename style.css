@@ -160,11 +160,11 @@ p {
 
 .intro_photo {
   position: absolute;
+  width: 45%;
   bottom: -1px;
   right: 0;
   z-index: 1;
   margin-bottom: 1rem;
-  border-radius: 40px;
 }
 
 .text_center {
