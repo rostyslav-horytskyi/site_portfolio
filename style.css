@@ -381,7 +381,7 @@ p {
   }
 
   .intro_photo {
-    /* width: 100%; */
+    min-width: 100%;
     position: relative;
   }
 
