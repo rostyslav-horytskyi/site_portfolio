@@ -18,16 +18,17 @@ $(function() {
     modal = $(`
       <div class="modal" id="modal">
 
-        <button
-          type="button"
-          class="close_btn"
-          onclick="$('.modal').remove()"
-        >
-          Close
-        </button>
-
         <div class="modal_dialog">
-          <h3 class="modal_title">CERTIFICATE</h3>
+          <h3 class="modal_title">
+            <p>CERTIFICATE</p>
+            <button
+              type="button"
+              class="close_btn"
+              onclick="$('.modal').remove()"
+            >
+              Close
+            </button>
+          </h3>
           <img class="modal_photo" src="certificates/${btnShowCertificate}.png" />
         </div>
 

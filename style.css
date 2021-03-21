@@ -414,13 +414,13 @@ p {
 }
 
 .close_btn {
-  float: right;
   font-size: 1rem;
   font-weight: bold;
   background-color: grey;
   border: none;
   border-radius: 50px;
   padding: 1rem 2rem;
+  margin-bottom: 5px;
 }
 
 .close_btn:hover {
