@@ -522,6 +522,7 @@ p {
   }
 
   .nav {
+    z-index: 1000;
     display: flex;
     justify-content: space-around;
     width: 100%;

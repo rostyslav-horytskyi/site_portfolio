@@ -1,4 +1,5 @@
 $(function() {
+  isMobile = true;
   $('[data-scroll]').on('click', function(event){
     event.preventDefault();
 
@@ -8,6 +9,7 @@ $(function() {
     $('html, body').animate({
       scrollTop: blockOffset - 50
     }, 700);
+    console.log(event.target);
   });
 
   $('[data-certificate]').on('click', function(event) {
