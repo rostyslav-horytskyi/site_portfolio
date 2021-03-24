@@ -279,7 +279,7 @@ p {
 }
 
 .skill img {
-  width: 110px;
+  width: 80px;
 }
 
 .course_info {
@@ -294,15 +294,15 @@ p {
 }
 
 .course_photo img {
-  width: 180px;
+  width: 70px;
 }
 
 .course_description {
-  width: 80%;
+  width: 92%;
 }
 
 .platform {
-  font-size: 2.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: var(--black);
   text-transform: uppercase;
@@ -310,22 +310,21 @@ p {
 
 .description {
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   float: left;
   color: var(--grey);
 }
 
 .btn_certificate {
-  float: right;
   vertical-align: top;
-  padding: 0.5rem 1rem;
-  width: 10.5rem;
+  padding: 0.3rem;
+  width: 4.7rem;
   border: 1px solid black;
   border-radius: 1.8rem;
   background: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: var(--black);
   text-transform: uppercase;
   text-decoration: none;
@@ -429,18 +428,21 @@ p {
 }
 
 @media(max-width: 1199px) {
+  .nav {
+    z-index: 1000;
+  }
+
   .intro {
     margin-top: -5rem;
   }
 
   .intro_photo {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+    height: 80%;
+    width: auto;
+  }
 
-  .intro_photo {
-    height: 100%;
+  .intro_title {
+    font-size: 2.5rem;
   }
 
   .intro_inner {
@@ -450,7 +452,7 @@ p {
   }
 
   .work {
-    width: 98%;
+    width: 40%;
     margin: 1rem auto;
     border-radius: 1.5rem;
   }
@@ -468,7 +470,7 @@ p {
   }
 
   .about_photo {
-    width: 100%;
+    height: 100%;
     padding-left: 1rem;
   }
 
@@ -508,7 +510,7 @@ p {
   }
 
   .course_description {
-    width: 70%;
+    width: 90%;
   }
 
   .description {
@@ -542,15 +544,20 @@ p {
   }
 
   .intro_title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .text_center {
+    font-size: 2rem;
     margin: 1rem auto;
   }
 
   .works {
     margin-bottom: 2rem;
+  }
+
+  .work {
+    width: 90%;
   }
 
   .work_cat {
@@ -579,16 +586,8 @@ p {
     padding: 0 1rem;
   }
 
-  .footer_nav {
-    display: none;
-  }
-
-  .footer_copyright {
-    font-size: 0.8rem;
-  }
-
-  .text_center.co {
-    font-size: 2rem;
+  .skill img {
+    width: 40px;
   }
 
   .course_info {
@@ -603,7 +602,15 @@ p {
   }
 
   .course_photo img {
-    width: 150px;
+    width: 70px;
+  }
+
+  .platform {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
   }
 
   .course_description {
@@ -615,3 +622,15 @@ p {
     float: none;
   }
 }
+
+  .footer_nav {
+    display: none;
+  }
+
+  .footer_copyright {
+    font-size: 0.8rem;
+  }
+
+  .text_center.co {
+    font-size: 2rem;
+  }
