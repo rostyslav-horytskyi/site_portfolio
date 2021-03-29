@@ -226,6 +226,7 @@ p {
 }
 
 .work_source {
+  font-size: 0.7rem;
   color: lightgrey;
   text-transform: uppercase;
 }
