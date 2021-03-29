@@ -189,7 +189,7 @@ p {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .work {
@@ -197,6 +197,7 @@ p {
   box-shadow: 0 0 4px black;
   border-radius: 10px;
   margin-bottom: 1rem;
+  margin: 10px;
 }
 
 .work:hover {
@@ -222,6 +223,21 @@ p {
   color: var(--black);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.work_source {
+  color: lightgrey;
+  text-transform: uppercase;
+}
+
+.work_source a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.work_source a:hover {
+  color: blue;
+  transition: color 0.5s ease-in-out;
 }
 
 .about_inner {
