@@ -298,7 +298,7 @@ p {
 }
 
 .work:hover::after {
-  visibility: none;
+  visibility: hidden;
   top: 0;
   left: 0;
   transition-duration: 0.6s;
