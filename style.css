@@ -66,6 +66,36 @@ p {
   margin-bottom: 3px;
 }
 
+.name {
+  overflow: hidden;
+  border-right: .5em solid #7a7a7a;
+  white-space: nowrap;
+  letter-spacing: .1em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+    border-right: none;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #7a7a7a;
+  }
+}
+
 .user_prof {
   font-size: 0.75rem;
   color: var(--black);
@@ -87,11 +117,12 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  text-shadow: 0 6px 6px;
+  transition-duration: 0.2s;
 }
 
 .nav_link:hover {
-  border-bottom: 2px solid black;
-  padding: 0 0 4px;
+  text-shadow: 0 2px 2px;
 }
 
 .intro_inner {
@@ -119,11 +150,23 @@ p {
   color: var(--black);
   font-size: 1.2rem;
   opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  color: var(--black);
+  opacity: 0.5;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.email_link {
+  color: var(--black);
 }
 
 .social {
   margin-top: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   display: flex;
 }
 
@@ -164,8 +207,9 @@ p {
 
 .intro_photo {
   position: absolute;
-  width: 40%;
+  width: 45%;
   max-width: 540px;
+  box-shadow: 3px 3px 6px;
   bottom: -1px;
   right: 0;
   z-index: 1;
@@ -203,7 +247,6 @@ p {
   transform-style: preserve-3d;
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
   transition: 0.6s ease transform;
-  box-shadow: 0 0 4px black;
   border-radius: 10px;
   margin-bottom: 1rem;
   margin: 10px;
@@ -224,7 +267,7 @@ p {
   width: 100%;
   height: 100%;
   border: 3px solid #708090;
-  border-radius: inherit;
+  border-radius: 10px;
   transform: translateZ(4.5rem);
   transition-duration: 0.6s;
 }
@@ -249,6 +292,7 @@ p {
   background-color: rgba(0, 0, 0, 0.1);
   top: 30px;
   left: 30px;
+  border-radius: 10px;
   transform: translateZ(-4rem);
   transition-duration: 0.6s;
 }
