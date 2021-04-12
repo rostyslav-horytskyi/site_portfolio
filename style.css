@@ -254,6 +254,11 @@ p {
   z-index: 1;
 }
 
+.work_photo {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .work:hover {
   transform: scale(1);
 }
@@ -308,6 +313,8 @@ p {
 .work::after:hover {
   transform: translateZ(-1px);
 }
+
+
 
 .work_content {
   padding: 0.3rem 0.8rem;
