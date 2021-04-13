@@ -155,6 +155,10 @@ p {
   margin-bottom: 5px;
 }
 
+.email {
+  padding-bottom: 15px;
+}
+
 .email_link {
   color: var(--black);
 }
