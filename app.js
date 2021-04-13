@@ -39,4 +39,13 @@ $(function() {
 
     $('body').append(modal);
   });
+  
+
+  var optionsTitle = {
+    strings: ['Rostyslav Horytskyi'],
+    typeSpeed: 100,
+    showCursor: false,
+  };
+  
+  var typedTitle = new Typed('.intro_title', optionsTitle);
 });

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/icon.png" type="image/png">
   <link rel="stylesheet" href="styles/style.css">
   <title>Portfolio</title>
@@ -24,10 +25,42 @@
         </div>
 
         <div class="nav" id="nav">
-          <a class="nav_link" href="#" data-scroll="#work">work</a>
-          <a class="nav_link" href="#" data-scroll="#about">about me</a>
-          <a class="nav_link" href="#" data-scroll="#skills">skills</a>
-          <a class="nav_link" href="#" data-scroll="#courses">courses</a>
+          <section class="portfolio-experiment">
+            <a href="#" data-scroll="#work">
+              <span class="text">Work</span>
+              <span class="line -right"></span>
+              <span class="line -top"></span>
+              <span class="line -left"></span>
+              <span class="line -bottom"></span>
+            </a>
+          </section>
+          <section class="portfolio-experiment">
+            <a href="#" data-scroll="#about">
+              <span class="text">about me</span>
+              <span class="line -right"></span>
+              <span class="line -top"></span>
+              <span class="line -left"></span>
+              <span class="line -bottom"></span>
+            </a>
+          </section>
+          <section class="portfolio-experiment">
+            <a href="#" data-scroll="#skills">
+              <span class="text">skills</span>
+              <span class="line -right"></span>
+              <span class="line -top"></span>
+              <span class="line -left"></span>
+              <span class="line -bottom"></span>
+            </a>
+          </section>
+          <section class="portfolio-experiment">
+            <a href="#" data-scroll="#courses">
+              <span class="text">courses</span>
+              <span class="line -right"></span>
+              <span class="line -top"></span>
+              <span class="line -left"></span>
+              <span class="line -bottom"></span>
+            </a>
+          </section>
         </div>
       </div>
     </div>
@@ -38,9 +71,7 @@
       <div class="intro_inner">
         <div class="intro_content">
           <h2 class="intro_subtitle">Hello, I'm</h2>
-          <div class="name">
-            <h1 class="intro_title">Rostyslav Horytskyi</h1>
-          </div>
+          <h1 class="intro_title"></h1>
           <div class="intro_text">Front-end Developer</div>
 
           <div class="contacts">
@@ -173,18 +204,18 @@
           <h2 class="about_bigtitle">who am i</h2>
           <div class="about_text">
             <ul>
-              <li>Frontend Developer with 8 months of practice looking for a position in this area.</li>
-              <li>Able to create high-quality and user-friendly Web products from scratch</li>
-              <li>Got practical experience in developing adaptive websites</li>
-              <li>My skill set includes:</li>
+              <li class="list_item">Frontend Developer with 8 months of practice looking for a position in this area.</li>
+              <li class="list_item">Able to create high-quality and user-friendly Web products from scratch</li>
+              <li class="list_item">Got practical experience in developing adaptive websites</li>
+              <li class="list_item">My skill set includes:</li>
                 <ul>
                   <li>HTML/CSS</li>
                   <li>JavaScript/Typescript</li>
                   <li>React/Redux</li>
                 </ul>
-              <li>Knowledge of CSS preprocessors, Bootstrap</li>
-              <li>Familiar with modern tools/libraries for web development</li>
-              <li>Got SQL basic knowledge</li>
+              <li class="list_item">Knowledge of CSS preprocessors, Bootstrap</li>
+              <li class="list_item">Familiar with modern tools/libraries for web development</li>
+              <li class="list_item">Got SQL basic knowledge</li>
             </ul>
           </div>
         </div>
@@ -306,5 +337,6 @@
   </footer>
 
   <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
 </body>
 </html>
